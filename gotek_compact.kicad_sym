@@ -175,461 +175,26 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "74AHCT07"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
-			(at 0 1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HCT07"
-			(at 0 -1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex Buffers and Drivers With Open Collector High Voltage Outputs"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "TTL hex buffer OpenCol"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* DIP*W7.62mm*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "74AHCT07_1_0"
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -7.62 0 0)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 7.62 0 180)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "74AHCT07_2_0"
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -7.62 0 0)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 7.62 0 180)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "74AHCT07_3_0"
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -7.62 0 0)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 7.62 0 180)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "74AHCT07_4_0"
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin open_collector line
-				(at 7.62 0 180)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 0 0)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "74AHCT07_5_0"
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin open_collector line
-				(at 7.62 0 180)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 0 0)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "74AHCT07_6_0"
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin open_collector line
-				(at 7.62 0 180)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 0 0)
-				(length 3.81)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "74AHCT07_7_0"
-			(pin power_in line
-				(at 0 -12.7 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 12.7 270)
-				(length 5.08)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "74AHCT07_7_1"
-			(rectangle
-				(start -5.08 7.62)
-				(end 5.08 -7.62)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "GT-USB-7016"
+	(symbol "TYPE-C16PIN"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "USB"
-			(at 0 17.78 0)
+			(at -0.508 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TYPE-C16PIN"
+			(at 0 -19.558 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -638,18 +203,8 @@
 				)
 			)
 		)
-		(property "Value" "GT-USB-7016"
-			(at 0 -17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "gotek_compact:USB-C-SMD_GT-USB-7016"
-			(at 0 -20.32 0)
+		(property "Footprint" "gotek_compact:USB-C-SMD_TYPE-C16PIN"
+			(at 0 -26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -659,8 +214,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2843972.pdf"
-			(at 0 -22.86 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-TYPE-C16PIN_C393939.html"
+			(at 0 -29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -681,8 +236,8 @@
 				)
 			)
 		)
-		(property "MPN" "GT-USB-7016"
-			(at 0 -27.94 0)
+		(property "Part Number" "TYPE-C16PIN"
+			(at 0 -34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -692,8 +247,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2843972"
-			(at 0 -30.48 0)
+		(property "LCSC" "C393939"
+			(at 0 -36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -714,10 +269,10 @@
 				)
 			)
 		)
-		(symbol "GT-USB-7016_0_1"
+		(symbol "TYPE-C16PIN_0_1"
 			(rectangle
-				(start -11.43 16.51)
-				(end 6.35 -16.51)
+				(start -6.35 17.78)
+				(end 6.35 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -727,7 +282,7 @@
 				)
 			)
 			(circle
-				(center -10.16 15.24)
+				(center -5.08 16.51)
 				(radius 0.38)
 				(stroke
 					(width 0)
@@ -738,8 +293,8 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -12.7 0)
-				(length 2.54)
+				(at -13.97 -15.24 0)
+				(length 7.62)
 				(name "SHELL"
 					(effects
 						(font
@@ -747,7 +302,7 @@
 						)
 					)
 				)
-				(number "0"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -756,8 +311,46 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -12.7 180)
-				(length 2.54)
+				(at -13.97 -15.24 0)
+				(length 7.62)
+				(hide yes)
+				(name "SHELL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -13.97 -15.24 0)
+				(length 7.62)
+				(hide yes)
+				(name "SHELL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -13.97 15.24 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -774,8 +367,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -5.08 180)
-				(length 2.54)
+				(at -13.97 12.7 0)
+				(length 7.62)
 				(name "VBUS"
 					(effects
 						(font
@@ -792,8 +385,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -2.54 180)
-				(length 2.54)
+				(at -13.97 10.16 0)
+				(length 7.62)
 				(name "CC1"
 					(effects
 						(font
@@ -810,8 +403,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 0 180)
-				(length 2.54)
+				(at -13.97 7.62 0)
+				(length 7.62)
 				(name "DP1"
 					(effects
 						(font
@@ -828,8 +421,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 2.54 180)
-				(length 2.54)
+				(at -13.97 5.08 0)
+				(length 7.62)
 				(name "DN1"
 					(effects
 						(font
@@ -846,8 +439,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 5.08 180)
-				(length 2.54)
+				(at -13.97 2.54 0)
+				(length 7.62)
 				(name "SBU1"
 					(effects
 						(font
@@ -864,8 +457,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 12.7 180)
-				(length 2.54)
+				(at -13.97 -12.7 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -882,8 +475,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 7.62 180)
-				(length 2.54)
+				(at -13.97 -10.16 0)
+				(length 7.62)
 				(name "VBUS"
 					(effects
 						(font
@@ -900,8 +493,8 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 2.54 0)
-				(length 2.54)
+				(at -13.97 0 0)
+				(length 7.62)
 				(name "CC2"
 					(effects
 						(font
@@ -918,8 +511,8 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 0 0)
-				(length 2.54)
+				(at -13.97 -2.54 0)
+				(length 7.62)
 				(name "DP2"
 					(effects
 						(font
@@ -936,8 +529,8 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -2.54 0)
-				(length 2.54)
+				(at -13.97 -5.08 0)
+				(length 7.62)
 				(name "DN2"
 					(effects
 						(font
@@ -954,8 +547,8 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -5.08 0)
-				(length 2.54)
+				(at -13.97 -7.62 0)
+				(length 7.62)
 				(name "SBU2"
 					(effects
 						(font
@@ -964,6 +557,27 @@
 					)
 				)
 				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TYPE-C16PIN_1_1"
+			(pin unspecified line
+				(at -13.97 -15.24 0)
+				(length 7.62)
+				(hide yes)
+				(name "SHELL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
