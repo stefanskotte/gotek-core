@@ -6450,6 +6450,12 @@
 		(uuid "910b0924-16e8-45ee-8161-71b05ba377ea")
 	)
 	(junction
+		(at 21.59 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91e39f07-c304-4dd2-b87d-3d5dcc53e9bf")
+	)
+	(junction
 		(at 181.61 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6490,12 +6496,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4c92823-8a13-4864-a112-7321e0d19491")
-	)
-	(junction
-		(at 21.59 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a77bcea6-7fab-46d0-8a0a-f41572a9e828")
 	)
 	(junction
 		(at 35.56 114.3)
@@ -6935,6 +6935,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 114.3) (xy 21.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258958ad-9da4-41fa-ae16-67f1e166df65")
+	)
+	(wire
+		(pts
 			(xy 148.59 166.37) (xy 139.7 166.37)
 		)
 		(stroke
@@ -6985,7 +6995,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 114.3) (xy 21.59 118.11)
+			(xy 21.59 105.41) (xy 21.59 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7212,16 +7222,6 @@
 			(type default)
 		)
 		(uuid "5778c614-ef23-468a-ae0a-c5bf52cc6058")
-	)
-	(wire
-		(pts
-			(xy 21.59 105.41) (xy 21.59 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "577de211-b0a1-4f7e-91b0-0ba94fc627a6")
 	)
 	(wire
 		(pts
@@ -12066,109 +12066,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 25.4 114.3 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4264b5ae-6bc7-4329-8096-c9013769a0c9")
-		(property "Reference" "C12"
-			(at 26.924 113.284 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22pF"
-			(at 26.924 115.824 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 21.59 115.2652 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 25.4 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1804"
-			(at 25.4 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "CL21C220JBANNNC"
-			(at 25.4 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ae55345-5c07-4fa0-b9ad-3eae4dde1056")
-		)
-		(pin "2"
-			(uuid "e5becb90-e265-4ee6-834a-f214e4d2a361")
-		)
-		(instances
-			(project "gotek_compact"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 248.92 152.4 90)
 		(unit 1)
@@ -12178,7 +12075,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4d102f7c-df95-4194-92b7-2cfc77cbb2d1")
+		(uuid "5240ee0c-144f-4c3f-87a7-50adc5380f30")
 		(property "Reference" "R15"
 			(at 248.92 150.114 90)
 			(show_name no)
@@ -12189,7 +12086,7 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "51K"
 			(at 248.92 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12232,7 +12129,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C27834"
+		(property "LCSC" "C17737"
 			(at 248.92 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -12243,7 +12140,7 @@
 				)
 			)
 		)
-		(property "Part Number" "0805W8F5101T5E"
+		(property "Part Number" "0805W8F5102T5E"
 			(at 248.92 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -12255,10 +12152,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "23d88f50-e96a-46ee-accd-1c7baff3e7a1")
+			(uuid "b615aa07-b985-4453-9755-afd20fc47a55")
 		)
 		(pin "1"
-			(uuid "c7fcb107-4c84-4de0-aa5b-abd36435e5a0")
+			(uuid "26678598-301a-435b-93fc-a56e6b0fca70")
 		)
 		(instances
 			(project "gotek_compact"
@@ -12597,7 +12494,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "30pF"
 			(at 27.178 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12608,7 +12505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 21.59 106.3752 0)
 			(hide yes)
 			(show_name no)
@@ -12641,7 +12538,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1804"
+		(property "LCSC" "C1658"
 			(at 25.4 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12652,7 +12549,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21C220JBANNNC"
+		(property "Part Number" "0603CG300J500NT"
 			(at 25.4 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -14478,6 +14375,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 25.4 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a74ac1e1-e63f-4988-89a4-5bbf963034c9")
+		(property "Reference" "C12"
+			(at 26.924 113.284 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30pF"
+			(at 27.178 115.824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 21.59 115.2652 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 25.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1658"
+			(at 25.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0603CG300J500NT"
+			(at 25.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ca8f55b-b281-46fa-b422-9fb25782dc24")
+		)
+		(pin "2"
+			(uuid "d0111b71-7ff7-4978-9b6a-f27f33cdfdb3")
+		)
+		(instances
+			(project "gotek_compact"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LCX07")
 		(at 139.7 104.14 0)
 		(unit 2)
@@ -15892,7 +15892,7 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "51K"
 			(at 248.92 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15935,7 +15935,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C27834"
+		(property "LCSC" "C17737"
 			(at 248.92 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -15946,7 +15946,7 @@
 				)
 			)
 		)
-		(property "Part Number" "0805W8F5101T5E"
+		(property "Part Number" "0805W8F5102T5E"
 			(at 248.92 147.32 90)
 			(hide yes)
 			(show_name no)
