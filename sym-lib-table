@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "gotek_compact") (type "KiCad") (uri "${KIPRJMOD}/gotek_compact.kicad_sym") (options "") (descr ""))
+)
