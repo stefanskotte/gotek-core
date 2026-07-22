@@ -4719,6 +4719,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AP2112K-3.3"
 			(pin_names
 				(offset 0.254)
@@ -6288,6 +6387,12 @@
 		(uuid "04bf7281-c576-40eb-a26d-2c14a81a7338")
 	)
 	(junction
+		(at 72.39 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "060c4381-f611-48c1-8c25-74071056beb3")
+	)
+	(junction
 		(at 27.94 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6436,6 +6541,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87b7d9fa-14e9-4098-955a-8d58672407dc")
+	)
+	(junction
+		(at 72.39 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dc8db5b-923d-42cf-9232-ca77c69d3f55")
 	)
 	(junction
 		(at 67.31 26.67)
@@ -6795,6 +6906,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 158.75) (xy 243.84 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb8a9ea-5a28-4e0d-af8b-a5713e87698a")
+	)
+	(wire
+		(pts
 			(xy 63.5 66.04) (xy 72.39 66.04)
 		)
 		(stroke
@@ -6982,6 +7103,26 @@
 			(type default)
 		)
 		(uuid "2917de46-46c9-4b4f-b7e9-bd21dbfb96ae")
+	)
+	(wire
+		(pts
+			(xy 241.3 161.29) (xy 243.84 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a35bcc1-e30c-4ae1-b911-45ed8c872ec7")
+	)
+	(wire
+		(pts
+			(xy 72.39 66.04) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aff32d5-9d0c-479d-bcff-b63b4214ef95")
 	)
 	(wire
 		(pts
@@ -7305,6 +7446,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 73.66) (xy 81.28 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6857f6d1-488d-4003-8d92-e87106589af6")
+	)
+	(wire
+		(pts
 			(xy 63.5 73.66) (xy 72.39 73.66)
 		)
 		(stroke
@@ -7362,16 +7513,6 @@
 			(type default)
 		)
 		(uuid "70761e76-ef61-4b92-989d-65b5e98eb10c")
-	)
-	(wire
-		(pts
-			(xy 100.33 123.19) (xy 102.87 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73a4600f-3be2-4857-b2fd-c816a75b3f10")
 	)
 	(wire
 		(pts
@@ -7835,16 +7976,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 125.73) (xy 102.87 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfc1146a-5ee7-4c33-85c6-2b4ae005fd44")
-	)
-	(wire
-		(pts
 			(xy 46.99 107.95) (xy 57.15 107.95)
 		)
 		(stroke
@@ -8303,6 +8434,28 @@
 			)
 		)
 	)
+	(global_label "USB_ST_D+"
+		(shape bidirectional)
+		(at 92.71 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d864c21-501a-4754-b255-dcc17ce69936")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape bidirectional)
 		(at 232.41 57.15 180)
@@ -8495,6 +8648,28 @@
 		(uuid "34fd2411-2199-452f-af8e-14a2b989e22b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.71 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "USB_D-"
+		(shape bidirectional)
+		(at 243.84 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3521169b-2991-4d13-98b9-099688e55c3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.84 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9329,6 +9504,28 @@
 			)
 		)
 	)
+	(global_label "USB_ST_D-"
+		(shape bidirectional)
+		(at 233.68 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ef18f75-d774-4e3f-bc9e-da78ab397992")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "_DKWD"
 		(shape input)
 		(at 196.85 129.54 0)
@@ -9623,28 +9820,6 @@
 			)
 		)
 	)
-	(global_label "USB_D+"
-		(shape bidirectional)
-		(at 102.87 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "97475bbe-259e-44fd-93b2-0185366c3dc1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "ENC_CLK"
 		(shape input)
 		(at 57.15 143.51 180)
@@ -9827,6 +10002,28 @@
 			)
 		)
 	)
+	(global_label "USB_ST_D+"
+		(shape bidirectional)
+		(at 233.68 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc4a5b0b-bc57-445a-bda6-7a3659f1c1c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "_RDY_3V"
 		(shape output)
 		(at 92.71 146.05 0)
@@ -9907,28 +10104,6 @@
 		(uuid "c23a187d-33b0-474b-acc2-a8138aed4e5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 147.32 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "USB_D-"
-		(shape bidirectional)
-		(at 102.87 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c24179ec-6ff9-47d4-aec7-d2a4712128cb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10167,6 +10342,28 @@
 			)
 		)
 	)
+	(global_label "USB_ST_D-"
+		(shape bidirectional)
+		(at 92.71 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d78aa43e-8cdf-4ab2-be69-44821072d1b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "DIR"
 		(shape input)
 		(at 92.71 138.43 0)
@@ -10289,6 +10486,28 @@
 		(uuid "e44f77f4-daa1-408c-a0ce-3931ab75d7de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 259.08 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape bidirectional)
+		(at 243.84 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eaa16840-a9c6-4e74-bab5-2e18f39218ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.84 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10484,6 +10703,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 237.49 158.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01200015-a395-4c54-ba20-5da30f60d359")
+		(property "Reference" "R2"
+			(at 240.284 157.988 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22"
+			(at 237.49 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 237.49 160.528 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17561"
+			(at 237.49 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0805W8F220JT5E"
+			(at 237.49 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f2ca25f7-ec0f-42ce-adf6-88c6dc145e46")
+		)
+		(pin "1"
+			(uuid "2b7e9d74-20c4-4f61-b702-304a6618d584")
+		)
+		(instances
+			(project "gotek_compact"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 148.59 179.07 0)
 		(mirror x)
@@ -10495,7 +10816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0615b485-6921-492a-9f2e-1e40648ec8e5")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 149.098 176.784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10581,7 +10902,7 @@
 		(instances
 			(project "gotek_compact"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10682,6 +11003,82 @@
 			(project "gotek_compact"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 259.08 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "13a15046-17b6-495c-9009-8a0d25444c46")
+		(property "Reference" "H2"
+			(at 261.62 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mounting Hole"
+			(at 261.62 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 259.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 259.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "gotek_compact"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -12167,39 +12564,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 96.52 125.73 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 259.08 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5c23c4b4-f590-49fd-b6a6-2ca0487b3acb")
-		(property "Reference" "R3"
-			(at 99.314 124.968 90)
+		(in_pos_files no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5c35d2d6-1d53-4fd3-9676-ca9c6dc67861")
+		(property "Reference" "H3"
+			(at 261.62 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "22"
-			(at 96.52 125.73 90)
+		(property "Value" "Mounting Hole"
+			(at 261.62 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 96.52 127.508 90)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 259.08 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12210,7 +12609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 125.73 0)
+			(at 259.08 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12220,8 +12619,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 96.52 125.73 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 259.08 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12230,39 +12629,11 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" "C17561"
-			(at 96.52 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0805W8F220JT5E"
-			(at 96.52 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "77479294-f759-437c-aea4-6a32aec418ff")
-		)
-		(pin "1"
-			(uuid "dd033324-f4aa-4c4f-b5bb-59832ec67f9d")
 		)
 		(instances
 			(project "gotek_compact"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R3")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -12380,7 +12751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ee5ed3b-05cf-4012-a530-a7c5e49c2201")
-		(property "Reference" "C10"
+		(property "Reference" "C13"
 			(at 22.098 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12466,7 +12837,7 @@
 		(instances
 			(project "gotek_compact"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C10")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -13543,6 +13914,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 237.49 161.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87ea71dc-8e5c-4def-99d6-4606e42930fc")
+		(property "Reference" "R3"
+			(at 240.284 160.528 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22"
+			(at 237.49 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 237.49 163.068 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17561"
+			(at 237.49 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0805W8F220JT5E"
+			(at 237.49 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d8335629-c210-4f6a-bd7f-44c835f75763")
+		)
+		(pin "1"
+			(uuid "b0d6e07f-e968-4f78-b9ce-fcfc4a34ac95")
+		)
+		(instances
+			(project "gotek_compact"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 181.61 147.32 0)
 		(unit 1)
@@ -13613,6 +14086,82 @@
 			(project "gotek_compact"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 259.08 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "8c2d6f5b-7ba7-4154-9c43-ab07c6c31dc7")
+		(property "Reference" "H4"
+			(at 261.62 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mounting Hole"
+			(at 261.62 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 259.08 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 259.08 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "gotek_compact"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -14157,6 +14706,82 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
 					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 259.08 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "9f5822e6-41f8-4df5-9645-0c9623360666")
+		(property "Reference" "H1"
+			(at 261.62 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mounting Hole"
+			(at 261.62 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 259.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 259.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "gotek_compact"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H1")
+					(unit 1)
 				)
 			)
 		)
@@ -15356,8 +15981,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 96.52 123.19 90)
+		(lib_id "Device:C")
+		(at 81.28 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15365,30 +15990,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dcd06b7e-3976-4b3f-b40f-a07fcb8efffb")
-		(property "Reference" "R2"
-			(at 99.314 122.428 90)
+		(uuid "d336f779-e1ed-4045-8e79-adc73e97b49e")
+		(property "Reference" "C9"
+			(at 82.042 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "22"
-			(at 96.52 123.19 90)
+		(property "Value" "10uF"
+			(at 81.788 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 96.52 124.968 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 81.28 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15399,7 +16025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 123.19 0)
+			(at 81.28 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15409,8 +16035,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 96.52 123.19 0)
+		(property "Description" ""
+			(at 81.28 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 81.28 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15420,8 +16056,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C17561"
-			(at 96.52 123.19 90)
+		(property "Part Number" "CL21A106KAYNNNE"
+			(at 81.28 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15430,28 +16066,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Part Number" "0805W8F220JT5E"
-			(at 96.52 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "362b895a-58d8-4740-83bc-e36ab3fb5045")
 		)
 		(pin "1"
-			(uuid "413cbdaa-3a71-4ced-ab2a-da8168bedfc1")
+			(uuid "8182941d-3fdc-41c7-8a02-fe5ee1a9ee09")
+		)
+		(pin "2"
+			(uuid "79e7b408-dd5b-4831-a69f-86f0c4d13a79")
 		)
 		(instances
 			(project "gotek_compact"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R2")
+					(reference "C9")
 					(unit 1)
 				)
 			)
