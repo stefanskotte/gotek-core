@@ -5,10 +5,11 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(title "Compact Gotek / FlashFloppy with breakout headers")
+		(title "Nano-Tek")
 		(date "2026-07-21")
 		(rev "1.0")
-		(company "Derived from OpenFlops")
+		(company "Vinny, Mesarim, Screemo, Kavanoz, Wrangler, Ordyne")
+		(comment 1 "Schematics derived from OpenFlops design by SukkoPera")
 	)
 	(lib_symbols
 		(symbol "74xx:74LCX07"
@@ -4842,6 +4843,592 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Nano-Tek:171826-4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J1"
+				(at 10.668 4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 3 3)
+						(thickness 0.6)
+						(bold yes)
+					)
+				)
+			)
+			(property "Value" "171826-4"
+				(at 10.16 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Nano-Tek:171826-4"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773972-5_EIS_Connectors_Brochure&DocType=Data%20Sheet&DocLang=English&PartCntxt=171826-4&DocFormat=pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Body Features: Connector Profile Low | Primary Product Color Natural | Configuration Features: Number of Rows 1 | Number of Positions 4 | PCB Mount Orientation Horizontal | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Base Material Brass | Contact Mating Area Plating Material Thickness .8 MICM | Mating Square Post Dimension .64 MM | Contact Current Rating (Max) 5 AMP | Contact Mating Area Length 7.5 MM | Contact Type Pin | Mating Square Post Dimension .025 INCH | Contact Mat"
+				(at 0.254 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "171826-4"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "ki_keywords" "Berg,Floppy,Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "171826-4_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 0)
+					(length 2.54)
+					(name "12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Nano-Tek:TYPE-C16PIN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "USB"
+				(at -0.508 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 2 2)
+						(thickness 0.4)
+						(bold yes)
+					)
+				)
+			)
+			(property "Value" "TYPE-C16PIN"
+				(at 0 -19.558 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Nano-Tek:USB-C-SMD_TYPE-C16PIN"
+				(at 0 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-TYPE-C16PIN_C393939.html"
+				(at 0 -29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "TYPE-C16PIN"
+				(at 0 -34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C393939"
+				(at 0 -36.83 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "USB Connectors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TYPE-C16PIN_0_1"
+				(rectangle
+					(start -6.35 17.78)
+					(end 6.35 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 16.51)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -15.24 0)
+					(length 7.62)
+					(name "SHELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -15.24 0)
+					(length 7.62)
+					(hide yes)
+					(name "SHELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -15.24 0)
+					(length 7.62)
+					(hide yes)
+					(name "SHELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 15.24 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 12.7 0)
+					(length 7.62)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 10.16 0)
+					(length 7.62)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 7.62 0)
+					(length 7.62)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 5.08 0)
+					(length 7.62)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 2.54 0)
+					(length 7.62)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -12.7 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -10.16 0)
+					(length 7.62)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 0 0)
+					(length 7.62)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -2.54 0)
+					(length 7.62)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -5.08 0)
+					(length 7.62)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -7.62 0)
+					(length 7.62)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TYPE-C16PIN_1_1"
+				(pin unspecified line
+					(at -13.97 -15.24 0)
+					(length 7.62)
+					(hide yes)
+					(name "SHELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AP2112K-3.3"
 			(pin_names
 				(offset 0.254)
@@ -5269,592 +5856,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "gotek_compact:171826-4"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J1"
-				(at 10.668 4.572 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 3 3)
-						(thickness 0.6)
-						(bold yes)
-					)
-				)
-			)
-			(property "Value" "171826-4"
-				(at 10.16 -11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "gotek_compact:171826-4"
-				(at 16.51 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773972-5_EIS_Connectors_Brochure&DocType=Data%20Sheet&DocLang=English&PartCntxt=171826-4&DocFormat=pdf"
-				(at 16.51 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Body Features: Connector Profile Low | Primary Product Color Natural | Configuration Features: Number of Rows 1 | Number of Positions 4 | PCB Mount Orientation Horizontal | Contact Features: PCB Contact Termination Area Plating Material Tin | Contact Base Material Brass | Contact Mating Area Plating Material Thickness .8 MICM | Mating Square Post Dimension .64 MM | Contact Current Rating (Max) 5 AMP | Contact Mating Area Length 7.5 MM | Contact Type Pin | Mating Square Post Dimension .025 INCH | Contact Mat"
-				(at 0.254 5.842 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "171826-4"
-				(at 16.51 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "ki_keywords" "Berg,Floppy,Connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "171826-4_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 0)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -7.62 0)
-					(length 2.54)
-					(name "12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "gotek_compact:TYPE-C16PIN"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "USB"
-				(at -0.508 20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 2 2)
-						(thickness 0.4)
-						(bold yes)
-					)
-				)
-			)
-			(property "Value" "TYPE-C16PIN"
-				(at 0 -19.558 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "gotek_compact:USB-C-SMD_TYPE-C16PIN"
-				(at 0 -26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-TYPE-C16PIN_C393939.html"
-				(at 0 -29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "TYPE-C16PIN"
-				(at 0 -34.29 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C393939"
-				(at 0 -36.83 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "USB Connectors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TYPE-C16PIN_0_1"
-				(rectangle
-					(start -6.35 17.78)
-					(end 6.35 -17.78)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -5.08 16.51)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -15.24 0)
-					(length 7.62)
-					(name "SHELL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -15.24 0)
-					(length 7.62)
-					(hide yes)
-					(name "SHELL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -15.24 0)
-					(length 7.62)
-					(hide yes)
-					(name "SHELL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 15.24 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 12.7 0)
-					(length 7.62)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 10.16 0)
-					(length 7.62)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 7.62 0)
-					(length 7.62)
-					(name "DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 5.08 0)
-					(length 7.62)
-					(name "DN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 2.54 0)
-					(length 7.62)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -12.7 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -10.16 0)
-					(length 7.62)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 0 0)
-					(length 7.62)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -2.54 0)
-					(length 7.62)
-					(name "DP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -5.08 0)
-					(length 7.62)
-					(name "DN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -7.62 0)
-					(length 7.62)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TYPE-C16PIN_1_1"
-				(pin unspecified line
-					(at -13.97 -15.24 0)
-					(length 7.62)
-					(hide yes)
-					(name "SHELL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10956,7 +10957,7 @@
 			(uuid "2b7e9d74-20c4-4f61-b702-304a6618d584")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R2")
 					(unit 1)
@@ -11060,7 +11061,7 @@
 			(uuid "e70f941a-a3bc-4bdb-ad30-f932294e807e")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C10")
 					(unit 1)
@@ -11160,7 +11161,7 @@
 			(uuid "b5691676-b947-4ed1-be81-36f93a0ca1a5")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "X1")
 					(unit 1)
@@ -11239,7 +11240,7 @@
 			(uuid "0db2f85e-4a3c-4404-b149-09a91849d3d2")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H2")
 					(unit 1)
@@ -11340,7 +11341,7 @@
 			(uuid "e5d26b12-36a4-4bf4-84e5-cf9e6c97b921")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R11")
 					(unit 1)
@@ -11479,7 +11480,7 @@
 			(uuid "274d9d12-14de-494b-9086-d8a56b69561b")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
 					(unit 1)
@@ -11488,7 +11489,7 @@
 		)
 	)
 	(symbol
-		(lib_id "gotek_compact:TYPE-C16PIN")
+		(lib_id "Nano-Tek:TYPE-C16PIN")
 		(at 250.19 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -11520,7 +11521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gotek_compact:USB-C-SMD_TYPE-C16PIN"
+		(property "Footprint" "Nano-Tek:USB-C-SMD_TYPE-C16PIN"
 			(at 250.19 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11624,7 +11625,7 @@
 			(uuid "0abd6a2a-fa5e-484d-a287-a4e2cdd6e616")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "CN2")
 					(unit 1)
@@ -11726,7 +11727,7 @@
 			(uuid "7122ffa3-f283-48a5-a5dc-64e228d8c338")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R12")
 					(unit 1)
@@ -12014,7 +12015,7 @@
 			(uuid "9f345b94-784d-4442-8eb2-f8d93f908fbc")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U1")
 					(unit 1)
@@ -12123,7 +12124,7 @@
 			(uuid "d35ee479-bff1-42fc-a2c4-3e92f051fbd0")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J4")
 					(unit 1)
@@ -12227,7 +12228,7 @@
 			(uuid "4ed62a56-63e2-40f2-bd03-5d3d53fb4962")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D1")
 					(unit 1)
@@ -12236,7 +12237,7 @@
 		)
 	)
 	(symbol
-		(lib_id "gotek_compact:171826-4")
+		(lib_id "Nano-Tek:171826-4")
 		(at 29.21 27.94 0)
 		(unit 1)
 		(body_style 1)
@@ -12268,7 +12269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gotek_compact:171826-4"
+		(property "Footprint" "Nano-Tek:171826-4"
 			(at 45.72 122.86 0)
 			(hide yes)
 			(show_name no)
@@ -12339,7 +12340,7 @@
 			(uuid "bd06668b-bcfe-4700-9444-e290e4a4097c")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "CN1")
 					(unit 1)
@@ -12440,7 +12441,7 @@
 			(uuid "ba673ec7-0cd9-41de-baf4-5f110443007c")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R13")
 					(unit 1)
@@ -12541,7 +12542,7 @@
 			(uuid "1fa06ad0-cf01-41de-80c3-43c1e7feddba")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
 					(unit 1)
@@ -12617,7 +12618,7 @@
 			(uuid "f5220b70-d4c0-4a4b-93a3-a6f75e542748")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR01")
 					(unit 1)
@@ -12718,7 +12719,7 @@
 			(uuid "26678598-301a-435b-93fc-a56e6b0fca70")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R15")
 					(unit 1)
@@ -12797,7 +12798,7 @@
 			(uuid "62b0e2e0-e330-4251-983f-15538f88a533")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H3")
 					(unit 1)
@@ -12897,7 +12898,7 @@
 			(uuid "d33a703a-83a9-4751-a261-7b29897889d7")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J1")
 					(unit 1)
@@ -13001,7 +13002,7 @@
 			(uuid "b1e39c8d-ffcb-49ce-8b51-fd54c5775324")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C13")
 					(unit 1)
@@ -13104,7 +13105,7 @@
 			(uuid "fd3384c5-876b-4537-8759-bbedcf035209")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C11")
 					(unit 1)
@@ -13205,7 +13206,7 @@
 			(uuid "5b9150d0-c682-482a-a7f6-3d0136d3f49d")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R5")
 					(unit 1)
@@ -13309,7 +13310,7 @@
 			(uuid "a511d34b-9da0-414c-adc7-02ea3d40a6b0")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C7")
 					(unit 1)
@@ -13448,7 +13449,7 @@
 			(uuid "274d9d12-14de-494b-9086-d8a56b69561c")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
 					(unit 5)
@@ -13587,7 +13588,7 @@
 			(uuid "274d9d12-14de-494b-9086-d8a56b69561d")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
 					(unit 6)
@@ -13691,7 +13692,7 @@
 			(uuid "acf9ec1a-83be-4ef8-bc7b-c554e7769629")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C6")
 					(unit 1)
@@ -13767,7 +13768,7 @@
 			(uuid "6331ce73-1c45-4203-9992-9471fca91c64")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR2")
 					(unit 1)
@@ -13869,7 +13870,7 @@
 			(uuid "25850202-0ab8-49f4-8565-f2299cddb721")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C1")
 					(unit 1)
@@ -13970,7 +13971,7 @@
 			(uuid "47fc641d-e293-48c4-874d-9e31f2bf9b87")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R8")
 					(unit 1)
@@ -14071,7 +14072,7 @@
 			(uuid "1c138f9d-7b87-40e3-9606-ed9e231b1981")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R6")
 					(unit 1)
@@ -14173,7 +14174,7 @@
 			(uuid "b0d6e07f-e968-4f78-b9ce-fcfc4a34ac95")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
 					(unit 1)
@@ -14249,7 +14250,7 @@
 			(uuid "ea4335be-aef1-4ce3-8806-261704e285e5")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0051")
 					(unit 1)
@@ -14328,7 +14329,7 @@
 			(uuid "60eb1f6b-47cc-49c3-b90f-d1852631e29f")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H4")
 					(unit 1)
@@ -14429,7 +14430,7 @@
 			(uuid "21aa1f46-b33c-4fc7-bfec-5fe7effc47fc")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R10")
 					(unit 1)
@@ -14530,7 +14531,7 @@
 			(uuid "e7c1b280-bc88-4cdf-bfbf-628f7bb879ca")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R9")
 					(unit 1)
@@ -14607,7 +14608,7 @@
 			(uuid "03b4df9e-f5d1-4988-aa7c-007fe1e80fda")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#FLG03")
 					(unit 1)
@@ -14732,7 +14733,7 @@
 			(uuid "05b912a5-4022-49cd-a84d-ac0d6030a1cf")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J2")
 					(unit 1)
@@ -14871,7 +14872,7 @@
 			(uuid "274d9d12-14de-494b-9086-d8a56b69561e")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
 					(unit 7)
@@ -14950,7 +14951,7 @@
 			(uuid "201deb59-9042-4fc9-8feb-ae3d56876005")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H1")
 					(unit 1)
@@ -15051,7 +15052,7 @@
 			(uuid "df626d40-2019-4278-84b1-e852345db404")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R7")
 					(unit 1)
@@ -15163,7 +15164,7 @@
 			(uuid "68ab22b6-b439-49ac-8ad3-83172f6623ff")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U3")
 					(unit 1)
@@ -15266,7 +15267,7 @@
 			(uuid "d0111b71-7ff7-4978-9b6a-f27f33cdfdb3")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C12")
 					(unit 1)
@@ -15405,7 +15406,7 @@
 			(uuid "274d9d12-14de-494b-9086-d8a56b69561f")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
 					(unit 2)
@@ -15507,7 +15508,7 @@
 			(uuid "ce42fe83-23ec-4924-a3ec-c715eb38d5f8")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C2")
 					(unit 1)
@@ -15611,7 +15612,7 @@
 			(uuid "df8a5cea-cd29-4b0c-8b77-22ba44b49575")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C4")
 					(unit 1)
@@ -15721,7 +15722,7 @@
 			(uuid "8bb03dc0-3139-4011-8ef0-5d61a7188969")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Q1")
 					(unit 1)
@@ -15823,7 +15824,7 @@
 			(uuid "65e0338b-448d-465c-b17e-bb2923be1416")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C3")
 					(unit 1)
@@ -15936,7 +15937,7 @@
 			(uuid "60efb0f1-3c4a-4c7f-882e-5dc8f8687bff")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J3")
 					(unit 1)
@@ -16040,7 +16041,7 @@
 			(uuid "df8a5cea-cd29-4b0c-8b77-22ba44b49576")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C5")
 					(unit 1)
@@ -16144,7 +16145,7 @@
 			(uuid "02eed713-f400-47e7-afd6-b69ee146b4d0")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C8")
 					(unit 1)
@@ -16246,7 +16247,7 @@
 			(uuid "79e7b408-dd5b-4831-a69f-86f0c4d13a79")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C9")
 					(unit 1)
@@ -16323,7 +16324,7 @@
 			(uuid "2b0f44c4-98d0-46ff-9d63-a87cb18209cd")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#FLG1")
 					(unit 1)
@@ -16521,7 +16522,7 @@
 			(uuid "a8c650ba-0377-41d0-997a-7a0d17e3d102")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "CN3")
 					(unit 1)
@@ -16660,7 +16661,7 @@
 			(uuid "274d9d12-14de-494b-9086-d8a56b695620")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
 					(unit 3)
@@ -16761,7 +16762,7 @@
 			(uuid "49e08d22-cdc8-4836-b31a-ef62f584e183")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R14")
 					(unit 1)
@@ -16862,7 +16863,7 @@
 			(uuid "ece9c3b9-0c38-46e6-a76e-fc33d8eb01a2")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R4")
 					(unit 1)
@@ -16938,7 +16939,7 @@
 			(uuid "3486724c-b684-40dd-84db-413f6fbbaa6a")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR3")
 					(unit 1)
@@ -17077,7 +17078,7 @@
 			(uuid "274d9d12-14de-494b-9086-d8a56b695621")
 		)
 		(instances
-			(project "gotek_compact"
+			(project "Nano-Tek"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
 					(unit 4)

@@ -30,7 +30,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gotek_compact:171826-4"
+		(property "Footprint" "Nano-Tek:171826-4"
 			(at 16.51 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -203,7 +203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gotek_compact:USB-C-SMD_TYPE-C16PIN"
+		(property "Footprint" "Nano-Tek:USB-C-SMD_TYPE-C16PIN"
 			(at 0 -26.67 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -538,14 +538,14 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "gotek_compact"
+      "Nano-Tek"
     ],
     "pinned_symbol_libs": [
-      "gotek_compact"
+      "Nano-Tek"
     ]
   },
   "meta": {
-    "filename": "gotek_compact.kicad_pro",
+    "filename": "Nano-Tek.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -738,8 +738,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "gotek_compact.kicad_sch",
-        "name": "gotek_compact",
+        "filename": "Nano-Tek.kicad_sch",
+        "name": "Nano-Tek",
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
@@ -749,7 +749,7 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "gotek_compact"
+      "Nano-Tek"
     ]
   ],
   "text_variables": {},

@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "gotek_compact") (type "KiCad") (uri "${KIPRJMOD}/gotek_compact.pretty") (options "") (descr ""))
+	(lib (name "Nano-Tek") (type "KiCad") (uri "${KIPRJMOD}/Nano-Tek.pretty") (options "") (descr ""))
 )

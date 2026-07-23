@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "User" 132 110)
+	(title_block
+		(title "Vinny, Mesarim, Screemo, Kavanoz, Wrangler, Ordyne")
+		(date "2026-07-23")
+		(rev "1.0")
+		(company "Schematics derived from OpenFlops design by SukkoPera")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
@@ -234,7 +240,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d21cc486-63f4-4130-9c85-2dc3c1385137")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -406,7 +412,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cc9bd9b4-fe2e-4570-923a-1ce3b779b7d9")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -578,7 +584,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/63941dff-54d9-4569-a158-23c8440fb558")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -750,7 +756,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/87ea71dc-8e5c-4def-99d6-4606e42930fc")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -922,7 +928,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/64aa9761-e23b-406f-ba7b-c872dc0089fc")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1094,7 +1100,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c56d8539-00d6-4f54-9c5e-a3dc0cd3d2c5")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1266,7 +1272,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ef0eaaa6-133b-4d57-b0f6-4d8000fbdbee")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1438,7 +1444,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c1c84ae6-bb60-4fe6-96ed-8b0a9bd19173")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1610,7 +1616,7 @@
 		(property ki_fp_filters "SOT?23?5*")
 		(path "/a34a3259-db54-4b70-99b4-fcc2c0a3abf5")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2026,7 +2032,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b7df6f24-900d-4fd6-8ffa-9e7f4b9a67b2")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2198,7 +2204,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/87c3eb17-762a-4acc-8cfe-cc3735ab509b")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2370,7 +2376,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2308ebef-18f9-41bc-9a84-69bf7a1c595f")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2542,7 +2548,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8619a35a-7a37-466f-974e-a4eced82a232")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2714,7 +2720,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5ee5ed3b-05cf-4012-a530-a7c5e49c2201")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2886,7 +2892,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f7463e72-98ff-4db2-a489-cd840b9f90aa")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3058,7 +3064,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a74ac1e1-e63f-4988-89a4-5bbf963034c9")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3205,7 +3211,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/13a15046-17b6-495c-9009-8a0d25444c46")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3261,7 +3267,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "gotek_compact:171826-4"
+	(footprint "Nano-Tek:171826-4"
 		(layer "F.Cu")
 		(uuid "5c999f1c-4809-45fd-ada5-998558759d0d")
 		(at 86 19.95 -90)
@@ -3339,7 +3345,7 @@
 		)
 		(path "/32686b3d-32b9-411d-bfc0-6cbf92e37218")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3605,7 +3611,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/804a390e-4133-4404-857c-66f6c744df28")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3777,7 +3783,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5240ee0c-144f-4c3f-87a7-50adc5380f30")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3949,7 +3955,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/38b3eaa8-f840-43b3-84cf-a2f64f579067")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4096,7 +4102,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/9f5822e6-41f8-4df5-9645-0c9623360666")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4231,7 +4237,7 @@
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* DIP*W7.62mm*")
 		(path "/9a3c0137-8c15-4e8e-a27c-fa78c0333514")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4699,7 +4705,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/361be3b1-b365-455d-98ab-b0d8b8ad93e1")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4871,7 +4877,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c6e164c0-ec4a-4f91-95ca-5b8571d784d8")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5091,7 +5097,7 @@
 			)
 		)
 	)
-	(footprint "gotek_compact:NanoTek_Logo_Stacked_10mm"
+	(footprint "Nano-Tek:NanoTek_Logo_Stacked_10mm"
 		(layer "F.Cu")
 		(uuid "8ecc15ac-99c4-4379-a068-6c5447589d0b")
 		(at 56 27.65)
@@ -5388,7 +5394,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/93b80219-9207-428f-bc3e-b5be06195c7f")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5560,7 +5566,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7c355e35-fbed-4fe2-8e6a-e79ae8107031")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5732,7 +5738,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/97ed83ba-665c-4b49-b94a-6a81a8cde17d")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6095,7 +6101,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a1d61117-3099-4a60-aab7-bd2dfa755af3")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6267,7 +6273,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1d2aac6f-dd0d-46f2-99ea-50afd51862ac")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6443,7 +6449,7 @@
 		(property ki_fp_filters "D*SOD?323*")
 		(path "/31bdc998-0659-4fef-961f-bab3f9ac19fd")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6745,7 +6751,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/e5dce818-0d87-4b94-9e59-fd19565ef32c")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7506,7 +7512,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0615b485-6921-492a-9f2e-1e40648ec8e5")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7653,7 +7659,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/8c2d6f5b-7ba7-4154-9c43-ab07c6c31dc7")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7788,7 +7794,7 @@
 		(property ki_fp_filters "LQFP*10x10mm*P0.5mm*")
 		(path "/24243071-6bf3-43bc-ac55-621a54098581")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8848,7 +8854,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/0e636f0b-d381-474c-ac6e-caf45a76a089")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8965,7 +8971,7 @@
 			)
 		)
 	)
-	(footprint "gotek_compact:USB-C-SMD_TYPE-C16PIN"
+	(footprint "Nano-Tek:USB-C-SMD_TYPE-C16PIN"
 		(layer "F.Cu")
 		(uuid "db6a7f39-5104-4188-8472-bb672d1e4097")
 		(at 45.095 35.6 -90)
@@ -9041,7 +9047,7 @@
 		)
 		(path "/1ee43656-51bb-47e7-b321-999a6d524336")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9444,7 +9450,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d336f779-e1ed-4045-8e79-adc73e97b49e")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9616,7 +9622,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/c1f80aed-2046-41c9-ac87-2bf2f383c0fc")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10012,7 +10018,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5e7d00cc-723b-45f8-b491-8cf4c45eb860")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10267,7 +10273,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8efb4363-48f7-4f65-88fd-f098ee24c079")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10439,7 +10445,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2748c0c6-64d3-4d6f-ac2c-0e52b75b1a93")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10727,7 +10733,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/61395b4c-677e-450a-abe7-4249e9e00130")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10874,7 +10880,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/5c35d2d6-1d53-4fd3-9676-ca9c6dc67861")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11009,7 +11015,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/01200015-a395-4c54-ba20-5da30f60d359")
 		(sheetname "/")
-		(sheetfile "gotek_compact.kicad_sch")
+		(sheetfile "Nano-Tek.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11102,7 +11108,7 @@
 			)
 		)
 	)
-	(footprint "gotek_compact:NanoTek_Logo_Horizontal_Tagline"
+	(footprint "Nano-Tek:NanoTek_Logo_Horizontal_Tagline"
 		(layer "B.Cu")
 		(uuid "61d693a7-d1d7-4a7f-9d8f-aab652d96cab")
 		(at 67.45 36.3 180)
