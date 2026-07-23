@@ -1,5 +1,5 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-C1,1uF,C_0805_2012Metric,82.5,-24.75,90.0,top
+C1,1uF,C_0805_2012Metric,82.5,-24.4,90.0,top
 C10,100nF,C_0805_2012Metric,52.15,-43.6375,0.0,top
 C11,30pF,C_0603_1608Metric,79.6,-40.85,0.0,top
 C12,30pF,C_0603_1608Metric,79.6,-37.15,0.0,top
@@ -12,19 +12,19 @@ C6,100nF,C_0805_2012Metric,58.0,-41.25,0.0,top
 C7,100nF,C_0805_2012Metric,70.25,-46.0,90.0,top
 C8,100nF,C_0805_2012Metric,75.0,-34.6,180.0,top
 C9,10uF,C_0805_2012Metric,71.3,-29.0,90.0,top
-CN1,POWER_IN,171826-4,89.15,-24.8,0.0,top
+CN1,POWER_IN,171826-4,92.9,-23.7,-90.0,top
 CN2,USB,USB-C-SMD_TYPE-C16PIN,44.9325,-35.6,-90.0,top
 CN3,Floppy 34,IDC-Header_2x17_P2.54mm_Vertical,66.78,-55.37,0.0,top
-D1,1N4148WS,D_SOD-323,82.85,-49.3,0.0,top
+D1,1N4148WS,D_SOD-323,82.65,-49.3,0.0,top
 J1,Sound,PinHeader_1x02_P2.54mm_Vertical,92.9,-46.915,270.0,top
 J2,USB_Prog,PinHeader_2x05_P2.54mm_Vertical,91.63,-36.1,90.0,top
-J3,OLED+SER,PinHeader_1x06_P2.54mm_Vertical,72.15,-20.1,0.0,top
-J4,Encoder,PinHeader_1x05_P2.54mm_Vertical,55.46,-20.1,0.0,top
-Q1,MMBT3904,SOT-23,82.975,-45.475,180.0,top
+J3,OLED+SER,PinHeader_1x06_P2.54mm_Vertical,73.15,-20.05,0.0,top
+J4,Encoder,PinHeader_1x05_P2.54mm_Vertical,57.46,-20.05,0.0,top
+Q1,MMBT3904,SOT-23,81.95,-46.5,180.0,top
 R1,4K7,R_0805_2012Metric,79.2,-32.35,0.0,top
 R10,1K,R_0805_2012Metric,77.4,-49.3,0.0,top
 R11,1K,R_0805_2012Metric,63.4,-49.3,0.0,top
-R12,22,R_0805_2012Metric,88.55,-44.1,180.0,top
+R12,22,R_0805_2012Metric,83.25,-43.75,180.0,top
 R13,1K,R_0805_2012Metric,82.9,-37.4125,-90.0,top
 R14,51K,R_0805_2012Metric,50.6,-32.6,90.0,top
 R15,51K,R_0805_2012Metric,50.225,-39.9125,-90.0,top
@@ -32,7 +32,7 @@ R2,22,R_0805_2012Metric,54.6,-37.2,180.0,top
 R3,22,R_0805_2012Metric,54.6,-39.2,180.0,top
 R4,4K7,R_0805_2012Metric,68.25,-46.0,90.0,top
 R5,4K7,R_0805_2012Metric,65.9,-29.0,90.0,top
-R6,1K,R_0805_2012Metric,49.9,-49.3,180.0,top
+R6,1K,R_0805_2012Metric,52.3875,-49.3,180.0,top
 R7,1K,R_0805_2012Metric,66.9,-49.3,0.0,top
 R8,1K,R_0805_2012Metric,70.4,-49.3,0.0,top
 R9,1K,R_0805_2012Metric,73.9,-49.3,0.0,top

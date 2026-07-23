@@ -4719,9 +4719,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
@@ -4729,7 +4733,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4738,8 +4742,8 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4770,7 +4774,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4792,7 +4796,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4803,9 +4807,9 @@
 					)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -4813,6 +4817,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -6896,6 +6920,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 72.39) (xy 259.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0619c773-cd59-47b6-8d7a-4e5bf8ab436d")
+	)
+	(wire
+		(pts
 			(xy 181.61 134.62) (xy 181.61 137.16)
 		)
 		(stroke
@@ -7033,6 +7067,16 @@
 			(type default)
 		)
 		(uuid "1ef0bfcd-7ca8-4c1e-9b08-8fc0d6b9c8d1")
+	)
+	(wire
+		(pts
+			(xy 256.54 91.44) (xy 259.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237734c0-15f7-49c7-8109-7b4c477d352a")
 	)
 	(wire
 		(pts
@@ -7516,6 +7560,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 85.09) (xy 259.08 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709f094a-efa7-4971-8b97-cc39dc5d3017")
+	)
+	(wire
+		(pts
 			(xy 184.15 144.78) (xy 181.61 144.78)
 		)
 		(stroke
@@ -7753,6 +7807,16 @@
 			(type default)
 		)
 		(uuid "a66f52a6-0aa9-4de5-a1a9-9e03b77d02e4")
+	)
+	(wire
+		(pts
+			(xy 256.54 78.74) (xy 259.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83b0b64-b913-40dc-9512-d64175c10324")
 	)
 	(wire
 		(pts
@@ -8886,6 +8950,30 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 256.54 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4da9aaf3-4f04-4a6e-9156-a7ff1ac9cc07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.6843 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "_STEP"
 		(shape input)
 		(at 92.71 97.79 0)
@@ -9107,6 +9195,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 256.54 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5939c08d-3f84-456e-a10d-04610cdce1df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.6843 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -9447,6 +9559,30 @@
 		(uuid "73afcd37-a142-494f-98be-91dcdd5037e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 254.8248 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 256.54 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77edc446-00d4-479c-9d33-2bc66a8583d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.6843 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9945,6 +10081,30 @@
 		(uuid "b5e17f04-9fa0-47de-9faa-f5fcf445e67d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 130.3043 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 256.54 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7fa17f4-9d7a-492f-8d69-a0ebe30beb42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.6843 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11009,8 +11169,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 259.08 74.93 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 259.08 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11021,7 +11181,7 @@
 		(fields_autoplaced yes)
 		(uuid "13a15046-17b6-495c-9009-8a0d25444c46")
 		(property "Reference" "H2"
-			(at 261.62 73.6599 0)
+			(at 261.62 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11032,7 +11192,7 @@
 			)
 		)
 		(property "Value" "Mounting Hole"
-			(at 261.62 76.1999 0)
+			(at 261.62 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11042,8 +11202,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 259.08 74.93 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 259.08 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11054,7 +11214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 74.93 0)
+			(at 259.08 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11065,7 +11225,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 259.08 74.93 0)
+			(at 259.08 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11074,6 +11234,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "0db2f85e-4a3c-4404-b149-09a91849d3d2")
 		)
 		(instances
 			(project "gotek_compact"
@@ -12564,8 +12727,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 259.08 80.01 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 259.08 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12576,17 +12739,6 @@
 		(fields_autoplaced yes)
 		(uuid "5c35d2d6-1d53-4fd3-9676-ca9c6dc67861")
 		(property "Reference" "H3"
-			(at 261.62 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mounting Hole"
 			(at 261.62 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12597,8 +12749,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 259.08 80.01 0)
+		(property "Value" "Mounting Hole"
+			(at 261.62 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 259.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12609,7 +12772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 80.01 0)
+			(at 259.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12620,7 +12783,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 259.08 80.01 0)
+			(at 259.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12629,6 +12792,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "62b0e2e0-e330-4251-983f-15538f88a533")
 		)
 		(instances
 			(project "gotek_compact"
@@ -14092,8 +14258,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 259.08 85.09 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 259.08 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14104,7 +14270,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c2d6f5b-7ba7-4154-9c43-ab07c6c31dc7")
 		(property "Reference" "H4"
-			(at 261.62 83.8199 0)
+			(at 261.62 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14115,7 +14281,7 @@
 			)
 		)
 		(property "Value" "Mounting Hole"
-			(at 261.62 86.3599 0)
+			(at 261.62 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14125,8 +14291,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 259.08 85.09 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 259.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14137,7 +14303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 85.09 0)
+			(at 259.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14148,7 +14314,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 259.08 85.09 0)
+			(at 259.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14157,6 +14323,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "60eb1f6b-47cc-49c3-b90f-d1852631e29f")
 		)
 		(instances
 			(project "gotek_compact"
@@ -14711,7 +14880,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 259.08 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -14744,7 +14913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 259.08 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -14776,6 +14945,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "201deb59-9042-4fc9-8feb-ae3d56876005")
 		)
 		(instances
 			(project "gotek_compact"

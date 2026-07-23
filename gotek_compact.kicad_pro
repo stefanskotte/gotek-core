@@ -52,20 +52,20 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.5,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
-          "min_island_area": 10.0,
+          "min_clearance": 0.2,
+          "min_island_area": 5.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.3,
+          "remove_islands": 2,
+          "thermal_relief_gap": 0.25,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -78,23 +78,11 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|44664471|50425000|55e52d12-5bae-4705-b2e1-c13cba2dd679|c9b791a4-e871-45c8-98e9-643774c229ad",
+          "missing_courtyard|56000000|27650000|8ecc15ac-99c4-4379-a068-6c5447589d0b|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "courtyards_overlap|88657812|18072439|b2ac7492-df05-448e-b332-12b3dd36cb02|d154bbb1-83ed-40f6-9c65-8e3fc7ae6637",
-          ""
-        ],
-        [
-          "courtyards_overlap|90664471|50425000|c9b791a4-e871-45c8-98e9-643774c229ad|f14ac3c5-4685-4322-afa6-06dac0c6ef26",
-          ""
-        ],
-        [
-          "courtyards_overlap|91135000|45968887|e63fb709-795e-40b7-bffa-3be4c98a5b9f|f14ac3c5-4685-4322-afa6-06dac0c6ef26",
-          ""
-        ],
-        [
-          "npth_inside_courtyard|89000000|21000000|088f8b49-f4ae-4a33-89ab-83e0736e119a|b2ac7492-df05-448e-b332-12b3dd36cb02",
+          "missing_courtyard|67450000|36300000|61d693a7-d1d7-4a7f-9d8f-aab652d96cab|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -173,7 +161,7 @@
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.15,
-        "min_hole_to_hole": 0.2,
+        "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -182,7 +170,7 @@
         "min_text_thickness": 0.05,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,
-        "min_via_annular_width": 0.0,
+        "min_via_annular_width": 0.13,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
